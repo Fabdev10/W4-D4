@@ -1,0 +1,100 @@
+.container .row.px-0 >  div:hover {
+     transform: scale(1.4);
+    cursor: pointer;
+}
+.container .row.px-0 >  div {
+ transition: transform 1s;
+ overflow: visible;
+}
+.bg-dark {
+    background-color: #141414!important;}
+header h2 {
+    margin-top: 20px;
+    margin-left: 64px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+
+.navbar-brand img {
+    width: 100px;
+    margin-left: 42px;
+}
+h3 {
+margin-top: 20px;
+margin-left: 64px;
+margin-bottom: 20px;
+}
+#genre {
+    margin-top: 20px;
+}
+
+footer > div {
+    font-size: 10px;
+    
+    width: 50%;
+    margin: auto;
+}
+footer {margin-top: 50px;}
+
+footer svg {
+    margin-left: 12px;
+    margin-bottom: 10px;
+}
+nav svg {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+footer p, svg {
+    color: darkgrey;
+    cursor: pointer;
+}
+
+
+.netflix{
+    width: 150px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.netflix span{
+    width: 50px;
+    height: 0;
+    background: #db0001;
+    position: absolute;
+}
+.left{
+    left: 0;
+    bottom: 0;
+    animation: anim 1s linear forwards;
+    animation-delay: 1s;
+}
+.center{
+    top: 0;
+    left: 0;
+    transform: skewX(22deg);
+    transform-origin: top left;
+    box-shadow: 0 0 50px #000;
+    z-index: 2;
+    animation: anim 1s linear forwards;
+    animation-delay: 2s;
+}
+.right{
+    right: 0;
+    bottom: 0;
+    animation: anim 1s linear forwards;
+    animation-delay: 3s;
+}
+
+
+@keyframes anim {
+
+
+ 
+    100%{
+        height: 100%;
+    }
+  
+}
